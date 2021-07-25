@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font: poppins;
+    background-color: white;
+    width: 100vw;
+height: 100vh;
+background-size: cover;
+background-position: center;
+   
+}
+#main {
+    width: 100%;
+    height: 20vh;
+    position: relative;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.02);
+    z-index: 1;
+}
+.logo img {
+    height: 55px;
+   
+  
+}
+
+
+.menu {
+    list-style: none;
+    display: flex;
+    }
+.menu li a {
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: grey;
+}
+a {
+        text-decoration: none;
+    }  
+
+    .hey {
+        color: #23cdaf;
+        font-weight: 500;
+        font-size: 0.9em;
+        border-bottom: 2px solid #23cdaf;
+        padding: 0.9%;
+    }
+    
+    .hey:hover {
+        background-color: rgb(72, 139, 240);
+        border-radius: 50%;
+        color: white;
+       
+    }
+
+
+
+.cert {
+    text-align: center;
+    
+}
+
+
+.kidiot {
+
+    text-align: center;
+}
+
+.kidiot img{
+
+    height: 600px;
+    width: 600px;
+    padding: 20px;
+}
+
+.kidiot img:hover{
+    
+    transform: scale(0.9);
+    z-index: 2;
+    box-shadow: 5px 10px 50px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+
+.footer{
+    padding: 50px;
+}
+
+.copy{
+    text-align: center;
+}
