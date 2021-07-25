@@ -184,11 +184,11 @@ a {
 
 .html {
     width: 75%;
-    animation: html 7s;
+    animation: html 9s;
 }
 .css {
     width: 60%;
-    animation: css 6s;
+    animation: css 7s;
 }
 .javascript {
     width: 25%;
@@ -196,7 +196,7 @@ a {
 }
 .c {
     width: 50%;
-    animation: clanguage 5s;
+    animation: clanguage 6s;
 }
 .python {
     width: 15%;
@@ -252,7 +252,7 @@ a {
         width: 0%;
     }
     100%{
-        width: 20%;
+        width: 15%;
     }
 }
 
