@@ -199,7 +199,7 @@ a {
     animation: clanguage 6s;
 }
 .python {
-    width: 15%;
+    width: 20%;
     animation: python 8s;
 }
 .reactjs {
@@ -252,7 +252,7 @@ a {
         width: 0%;
     }
     100%{
-        width: 15%;
+        width: 20%;
     }
 }
 
