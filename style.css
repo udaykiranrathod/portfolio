@@ -91,7 +91,7 @@ a {
     
     width: 326px;
     height: 669px;
-    background-image: url(1.jpg);
+    background-image: url(3.jpg);
     object-fit: contain;
     animation: slide 50s infinite;
     border: 2px solid black;
@@ -103,20 +103,23 @@ a {
 @keyframes slide {
 
     10%{
-        background-image: url(2.jpg);
+        background-image: url(3.jpg);
     }
     
+    20%{
+        background-image: url(2.jpg);
+    }
     30%{
         background-image: url(4.jpg);
     }
-    60%{
+    40%{
+        background-image: url(1.jpg);
+    }
+    50%{
         background-image: url(5.jpg);
     }
-    80%{
+     100%{
         background-image: url(6.jpg);
-    }
-    100%{
-        background-image: url(1.jpg);
     }
 }
 
